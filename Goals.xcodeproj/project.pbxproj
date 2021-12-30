@@ -57,6 +57,11 @@
 		882581EC277E11CB0070FC95 /* Goals */ = {
 			isa = PBXGroup;
 			children = (
+				88258203277E146B0070FC95 /* Model */,
+				88258202277E14630070FC95 /* View */,
+				88258204277E14710070FC95 /* ViewModel */,
+				88258206277E14860070FC95 /* Utils */,
+				88258205277E147A0070FC95 /* Repositories */,
 				882581ED277E11CB0070FC95 /* GoalsApp.swift */,
 				882581EF277E11CB0070FC95 /* ContentView.swift */,
 				882581F1277E11CC0070FC95 /* Assets.xcassets */,
@@ -72,6 +77,41 @@
 				882581F4277E11CC0070FC95 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88258202277E14630070FC95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88258203277E146B0070FC95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88258204277E14710070FC95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88258205277E147A0070FC95 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		88258206277E14860070FC95 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
