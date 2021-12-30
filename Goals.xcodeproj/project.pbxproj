@@ -11,6 +11,7 @@
 		882581F0277E11CB0070FC95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882581EF277E11CB0070FC95 /* ContentView.swift */; };
 		882581F2277E11CC0070FC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882581F1277E11CC0070FC95 /* Assets.xcassets */; };
 		882581F5277E11CC0070FC95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882581F4277E11CC0070FC95 /* Preview Assets.xcassets */; };
+		882581FC277E13640070FC95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 882581FB277E13640070FC95 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		882581EF277E11CB0070FC95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		882581F1277E11CC0070FC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		882581F4277E11CC0070FC95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		882581FB277E13640070FC95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				882581ED277E11CB0070FC95 /* GoalsApp.swift */,
 				882581EF277E11CB0070FC95 /* ContentView.swift */,
 				882581F1277E11CC0070FC95 /* Assets.xcassets */,
+				882581FB277E13640070FC95 /* GoogleService-Info.plist */,
 				882581F3277E11CC0070FC95 /* Preview Content */,
 			);
 			path = Goals;
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				882581F5277E11CC0070FC95 /* Preview Assets.xcassets in Resources */,
+				882581FC277E13640070FC95 /* GoogleService-Info.plist in Resources */,
 				882581F2277E11CC0070FC95 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
