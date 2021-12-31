@@ -15,6 +15,7 @@
 		882581FF277E14010070FC95 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 882581FE277E14010070FC95 /* FirebaseFirestore */; };
 		88258201277E14010070FC95 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 88258200277E14010070FC95 /* FirebaseFirestoreSwift-Beta */; };
 		8874EBC2277FAB3A00C84671 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8874EBC1277FAB3A00C84671 /* Goal.swift */; };
+		8874EBC4277FB31A00C84671 /* FirebaseGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8874EBC3277FB31A00C84671 /* FirebaseGoalRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		882581F4277E11CC0070FC95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		882581FB277E13640070FC95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8874EBC1277FAB3A00C84671 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		8874EBC3277FB31A00C84671 /* FirebaseGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGoalRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		88258205277E147A0070FC95 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				8874EBC3277FB31A00C84671 /* FirebaseGoalRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				882581F0277E11CB0070FC95 /* ContentView.swift in Sources */,
 				8874EBC2277FAB3A00C84671 /* Goal.swift in Sources */,
 				882581EE277E11CB0070FC95 /* GoalsApp.swift in Sources */,
+				8874EBC4277FB31A00C84671 /* FirebaseGoalRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
