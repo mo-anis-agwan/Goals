@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8805AD3C2780522B00505B9B /* MockGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AD3B2780522B00505B9B /* MockGoalRepository.swift */; };
 		882581EE277E11CB0070FC95 /* GoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882581ED277E11CB0070FC95 /* GoalsApp.swift */; };
 		882581F0277E11CB0070FC95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882581EF277E11CB0070FC95 /* ContentView.swift */; };
 		882581F2277E11CC0070FC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882581F1277E11CC0070FC95 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8805AD3B2780522B00505B9B /* MockGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGoalRepository.swift; sourceTree = "<group>"; };
 		882581EA277E11CB0070FC95 /* Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		882581ED277E11CB0070FC95 /* GoalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsApp.swift; sourceTree = "<group>"; };
 		882581EF277E11CB0070FC95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				8874EBC3277FB31A00C84671 /* FirebaseGoalRepository.swift */,
 				8874EBC5277FB6DE00C84671 /* GoalRepositoryProtocol.swift */,
+				8805AD3B2780522B00505B9B /* MockGoalRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				882581F0277E11CB0070FC95 /* ContentView.swift in Sources */,
 				8874EBC2277FAB3A00C84671 /* Goal.swift in Sources */,
+				8805AD3C2780522B00505B9B /* MockGoalRepository.swift in Sources */,
 				8874EBC6277FB6DE00C84671 /* GoalRepositoryProtocol.swift in Sources */,
 				882581EE277E11CB0070FC95 /* GoalsApp.swift in Sources */,
 				8874EBC4277FB31A00C84671 /* FirebaseGoalRepository.swift in Sources */,
