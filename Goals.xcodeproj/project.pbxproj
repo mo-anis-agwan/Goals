@@ -29,6 +29,7 @@
 		88FC4F652780B9C40000375C /* GoalDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F642780B9C40000375C /* GoalDetailViewModel.swift */; };
 		88FC4F672780BC4B0000375C /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F662780BC4B0000375C /* GoalView.swift */; };
 		88FC4F692780BF580000375C /* AddNewGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F682780BF580000375C /* AddNewGoalView.swift */; };
+		88FC4F6B2780FC430000375C /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F6A2780FC430000375C /* GoalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		88FC4F642780B9C40000375C /* GoalDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailViewModel.swift; sourceTree = "<group>"; };
 		88FC4F662780BC4B0000375C /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
 		88FC4F682780BF580000375C /* AddNewGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoalView.swift; sourceTree = "<group>"; };
+		88FC4F6A2780FC430000375C /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				882581EF277E11CB0070FC95 /* ContentView.swift */,
 				88FC4F662780BC4B0000375C /* GoalView.swift */,
 				88FC4F682780BF580000375C /* AddNewGoalView.swift */,
+				88FC4F6A2780FC430000375C /* GoalDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				8805AD40278069AC00505B9B /* DateUtils.swift in Sources */,
 				8805AD3E2780657A00505B9B /* ColorUtils.swift in Sources */,
 				88FC4F652780B9C40000375C /* GoalDetailViewModel.swift in Sources */,
+				88FC4F6B2780FC430000375C /* GoalDetailView.swift in Sources */,
 				88FC4F5F2780B0220000375C /* GoalViewModel.swift in Sources */,
 				88FC4F672780BC4B0000375C /* GoalView.swift in Sources */,
 				8874EBC2277FAB3A00C84671 /* Goal.swift in Sources */,
