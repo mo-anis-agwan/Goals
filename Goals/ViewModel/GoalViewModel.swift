@@ -29,7 +29,7 @@ struct GoalViewModel {
     }
     
     var color: Color {
-        Color(UIColor(hexString: goal.icon))
+        Color(UIColor(hexString: goal.color))
     }
     
     var icon: String {

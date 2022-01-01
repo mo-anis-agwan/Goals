@@ -13,8 +13,8 @@ extension UIColor {
         let hexString: String = hexString.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         let scanner = Scanner(string: hexString)
         if hexString.hasPrefix("#") {
-            //scanner.currentIndex = scanner.string.index(after: scanner.currentIndex)
-            scanner.scanLocation = 1
+            scanner.currentIndex = scanner.string.index(after: scanner.currentIndex)
+            //scanner.scanLocation = 1
         }
         
         var color: UInt64 =  0
