@@ -22,6 +22,7 @@
 		8874EBC4277FB31A00C84671 /* FirebaseGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8874EBC3277FB31A00C84671 /* FirebaseGoalRepository.swift */; };
 		8874EBC6277FB6DE00C84671 /* GoalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8874EBC5277FB6DE00C84671 /* GoalRepositoryProtocol.swift */; };
 		88FC4F5B2780AC450000375C /* NavigationBarIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F5A2780AC450000375C /* NavigationBarIUtil.swift */; };
+		88FC4F5D2780AE7B0000375C /* AnimationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F5C2780AE7B0000375C /* AnimationUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		8874EBC3277FB31A00C84671 /* FirebaseGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGoalRepository.swift; sourceTree = "<group>"; };
 		8874EBC5277FB6DE00C84671 /* GoalRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalRepositoryProtocol.swift; sourceTree = "<group>"; };
 		88FC4F5A2780AC450000375C /* NavigationBarIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarIUtil.swift; sourceTree = "<group>"; };
+		88FC4F5C2780AE7B0000375C /* AnimationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				8805AD3F278069AC00505B9B /* DateUtils.swift */,
 				8805AD4127806AC900505B9B /* EmojiTextField.swift */,
 				88FC4F5A2780AC450000375C /* NavigationBarIUtil.swift */,
+				88FC4F5C2780AE7B0000375C /* AnimationUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88FC4F5D2780AE7B0000375C /* AnimationUtils.swift in Sources */,
 				882581F0277E11CB0070FC95 /* ContentView.swift in Sources */,
 				8805AD4227806AC900505B9B /* EmojiTextField.swift in Sources */,
 				8805AD40278069AC00505B9B /* DateUtils.swift in Sources */,
