@@ -28,6 +28,7 @@
 		88FC4F632780B4B50000375C /* AddGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F622780B4B50000375C /* AddGoalViewModel.swift */; };
 		88FC4F652780B9C40000375C /* GoalDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F642780B9C40000375C /* GoalDetailViewModel.swift */; };
 		88FC4F672780BC4B0000375C /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F662780BC4B0000375C /* GoalView.swift */; };
+		88FC4F692780BF580000375C /* AddNewGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FC4F682780BF580000375C /* AddNewGoalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		88FC4F622780B4B50000375C /* AddGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewModel.swift; sourceTree = "<group>"; };
 		88FC4F642780B9C40000375C /* GoalDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailViewModel.swift; sourceTree = "<group>"; };
 		88FC4F662780BC4B0000375C /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		88FC4F682780BF580000375C /* AddNewGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			children = (
 				882581EF277E11CB0070FC95 /* ContentView.swift */,
 				88FC4F662780BC4B0000375C /* GoalView.swift */,
+				88FC4F682780BF580000375C /* AddNewGoalView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				88FC4F632780B4B50000375C /* AddGoalViewModel.swift in Sources */,
 				882581EE277E11CB0070FC95 /* GoalsApp.swift in Sources */,
 				88FC4F612780B31F0000375C /* GoalListViewModel.swift in Sources */,
+				88FC4F692780BF580000375C /* AddNewGoalView.swift in Sources */,
 				8874EBC4277FB31A00C84671 /* FirebaseGoalRepository.swift in Sources */,
 				88FC4F5B2780AC450000375C /* NavigationBarIUtil.swift in Sources */,
 			);
