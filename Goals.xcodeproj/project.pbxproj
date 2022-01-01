@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8805AD3C2780522B00505B9B /* MockGoalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AD3B2780522B00505B9B /* MockGoalRepository.swift */; };
 		8805AD3E2780657A00505B9B /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AD3D2780657A00505B9B /* ColorUtils.swift */; };
+		8805AD40278069AC00505B9B /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805AD3F278069AC00505B9B /* DateUtils.swift */; };
 		882581EE277E11CB0070FC95 /* GoalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882581ED277E11CB0070FC95 /* GoalsApp.swift */; };
 		882581F0277E11CB0070FC95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882581EF277E11CB0070FC95 /* ContentView.swift */; };
 		882581F2277E11CC0070FC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882581F1277E11CC0070FC95 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		8805AD3B2780522B00505B9B /* MockGoalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGoalRepository.swift; sourceTree = "<group>"; };
 		8805AD3D2780657A00505B9B /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		8805AD3F278069AC00505B9B /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		882581EA277E11CB0070FC95 /* Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		882581ED277E11CB0070FC95 /* GoalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsApp.swift; sourceTree = "<group>"; };
 		882581EF277E11CB0070FC95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				8805AD3D2780657A00505B9B /* ColorUtils.swift */,
+				8805AD3F278069AC00505B9B /* DateUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				882581F0277E11CB0070FC95 /* ContentView.swift in Sources */,
+				8805AD40278069AC00505B9B /* DateUtils.swift in Sources */,
 				8805AD3E2780657A00505B9B /* ColorUtils.swift in Sources */,
 				8874EBC2277FAB3A00C84671 /* Goal.swift in Sources */,
 				8805AD3C2780522B00505B9B /* MockGoalRepository.swift in Sources */,
