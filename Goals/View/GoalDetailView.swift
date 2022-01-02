@@ -32,7 +32,7 @@ struct GoalDetailView: View {
             }
             .padding(.horizontal)
             .foregroundColor(.white)
-            .background(LinearGradient(colors: [viewModel.goal.color, viewModel.goal.color.opacity(0.6)], startPoint: .top, endPoint: .bottom))
+            .background(LinearGradient(colors: [viewModel.goal.color, viewModel.goal.color.opacity(0.7)], startPoint: .top, endPoint: .bottom))
             
             List {
                 HStack {

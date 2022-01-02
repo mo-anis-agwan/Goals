@@ -17,7 +17,8 @@ struct GoalsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(repo: MockGoalRepository())
+            //ContentView(repo: MockGoalRepository())
+            ContentView(repo: FirebaseGoalRepository())
         }
     }
 }
