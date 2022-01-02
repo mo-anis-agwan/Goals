@@ -17,7 +17,7 @@ struct GoalsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(repo: MockGoalRepository())
         }
     }
 }
